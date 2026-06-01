@@ -8,6 +8,7 @@ class IngredienteBase(BaseModel):
     precio_adicional: float = 0.0
     imagen_url: Optional[str] = None
     disponible: bool = True
+    alergeno: bool = False
 
 
 class IngredienteCreate(IngredienteBase):
@@ -20,6 +21,7 @@ class IngredienteUpdate(BaseModel):
     precio_adicional: Optional[float] = None
     imagen_url: Optional[str] = None
     disponible: Optional[bool] = None
+    alergeno: Optional[bool] = None
 
 
 class IngredienteResponse(IngredienteBase):

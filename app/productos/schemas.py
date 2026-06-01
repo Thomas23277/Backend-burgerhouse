@@ -52,7 +52,7 @@ class IngredienteNested(BaseModel):
     nombre: str
     precio_adicional: float
     imagen_url: Optional[str] = None
-    es_alergeno: bool = False
+    alergeno: bool = False
 
     class Config:
         from_attributes = True

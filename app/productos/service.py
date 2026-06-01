@@ -28,7 +28,7 @@ def _build_response(producto: Producto) -> ProductoResponse:
                     id=pi.ingrediente.id, nombre=pi.ingrediente.nombre,
                     precio_adicional=pi.ingrediente.precio_adicional,
                     imagen_url=pi.ingrediente.imagen_url,
-                    es_alergeno=pi.es_alergeno,
+                    alergeno=pi.ingrediente.alergeno,
                 ))
 
     return ProductoResponse(

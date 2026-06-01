@@ -88,20 +88,20 @@ CATEGORIAS = [
 # ──────────────────────────────────────────────
 
 INGREDIENTES = [
-    {"nombre": "Pan de hamburguesa", "descripcion": "Pan artesanal brioche", "precio_adicional": 0, "imagen_url": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=200"},
-    {"nombre": "Carne de res 200g", "descripcion": "Carne angus 100% de res", "precio_adicional": 0, "imagen_url": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=200"},
-    {"nombre": "Queso cheddar", "descripcion": "Queso cheddar derretido", "precio_adicional": 500, "imagen_url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=200"},
-    {"nombre": "Queso suizo", "descripcion": "Queso suizo fundido", "precio_adicional": 600, "imagen_url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=200"},
-    {"nombre": "Lechuga fresca", "descripcion": "Lechuga criolla fresca", "precio_adicional": 0, "imagen_url": "https://images.unsplash.com/photo-1556801712-76c8eb07bbc9?w=200"},
-    {"nombre": "Tomate", "descripcion": "Tomate fresco en rodajas", "precio_adicional": 0, "imagen_url": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=200"},
-    {"nombre": "Cebolla morada", "descripcion": "Cebolla morada en aros", "precio_adicional": 0, "imagen_url": "https://images.unsplash.com/photo-1508747703724-2c2e79e52e34?w=200"},
-    {"nombre": "Pepinillos", "descripcion": "Pepinillos en rodajas", "precio_adicional": 300, "imagen_url": "https://images.unsplash.com/photo-1607532941433-3046591e1a5e?w=200"},
-    {"nombre": "Bacon crocante", "descripcion": "Tiras de bacon ahumado", "precio_adicional": 1000, "imagen_url": "https://images.unsplash.com/photo-1559742811-822f4580b12e?w=200"},
-    {"nombre": "Salsa BBQ", "descripcion": "Salsa barbacoa ahumada", "precio_adicional": 0, "imagen_url": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=200"},
-    {"nombre": "Salsa especial", "descripcion": "Salsa secreta de la casa", "precio_adicional": 0, "imagen_url": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=200"},
-    {"nombre": "Huevo", "descripcion": "Huevo frito", "precio_adicional": 500, "imagen_url": "https://images.unsplash.com/photo-1587486913049-53fc88980cfc?w=200"},
-    {"nombre": "Jalapeño", "descripcion": "Jalapeños frescos en rodajas", "precio_adicional": 400, "imagen_url": "https://images.unsplash.com/photo-1582347613265-1e9b69b2c130?w=200"},
-    {"nombre": "Salsa de queso", "descripcion": "Salsa de queso cheddar para acompañar", "precio_adicional": 800, "imagen_url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=200"},
+    {"nombre": "Pan de hamburguesa", "descripcion": "Pan artesanal brioche", "precio_adicional": 0, "imagen_url": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=200", "alergeno": True},
+    {"nombre": "Carne de res 200g", "descripcion": "Carne angus 100% de res", "precio_adicional": 0, "imagen_url": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=200", "alergeno": False},
+    {"nombre": "Queso cheddar", "descripcion": "Queso cheddar derretido", "precio_adicional": 500, "imagen_url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=200", "alergeno": True},
+    {"nombre": "Queso suizo", "descripcion": "Queso suizo fundido", "precio_adicional": 600, "imagen_url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=200", "alergeno": True},
+    {"nombre": "Lechuga fresca", "descripcion": "Lechuga criolla fresca", "precio_adicional": 0, "imagen_url": "https://images.unsplash.com/photo-1556801712-76c8eb07bbc9?w=200", "alergeno": False},
+    {"nombre": "Tomate", "descripcion": "Tomate fresco en rodajas", "precio_adicional": 0, "imagen_url": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=200", "alergeno": False},
+    {"nombre": "Cebolla morada", "descripcion": "Cebolla morada en aros", "precio_adicional": 0, "imagen_url": "https://images.unsplash.com/photo-1508747703724-2c2e79e52e34?w=200", "alergeno": False},
+    {"nombre": "Pepinillos", "descripcion": "Pepinillos en rodajas", "precio_adicional": 300, "imagen_url": "https://images.unsplash.com/photo-1607532941433-3046591e1a5e?w=200", "alergeno": False},
+    {"nombre": "Bacon crocante", "descripcion": "Tiras de bacon ahumado", "precio_adicional": 1000, "imagen_url": "https://images.unsplash.com/photo-1559742811-822f4580b12e?w=200", "alergeno": False},
+    {"nombre": "Salsa BBQ", "descripcion": "Salsa barbacoa ahumada", "precio_adicional": 0, "imagen_url": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=200", "alergeno": False},
+    {"nombre": "Salsa especial", "descripcion": "Salsa secreta de la casa", "precio_adicional": 0, "imagen_url": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=200", "alergeno": False},
+    {"nombre": "Huevo", "descripcion": "Huevo frito", "precio_adicional": 500, "imagen_url": "https://images.unsplash.com/photo-1587486913049-53fc88980cfc?w=200", "alergeno": True},
+    {"nombre": "Jalapeño", "descripcion": "Jalapeños frescos en rodajas", "precio_adicional": 400, "imagen_url": "https://images.unsplash.com/photo-1582347613265-1e9b69b2c130?w=200", "alergeno": False},
+    {"nombre": "Salsa de queso", "descripcion": "Salsa de queso cheddar para acompañar", "precio_adicional": 800, "imagen_url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=200", "alergeno": True},
 ]
 
 # ──────────────────────────────────────────────

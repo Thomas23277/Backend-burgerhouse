@@ -31,6 +31,7 @@ class Ingrediente(SQLModel, table=True):
     precio_adicional: float = Field(default=0.0)
     imagen_url: Optional[str] = None
     disponible: bool = Field(default=True)
+    alergeno: bool = Field(default=False)
     deleted_at: Optional[datetime] = Field(default=None)
 
     productos: List["ProductoIngrediente"] = Relationship(back_populates="ingrediente")

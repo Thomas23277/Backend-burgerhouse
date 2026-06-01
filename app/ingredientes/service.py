@@ -14,6 +14,7 @@ def _build_response(ingrediente: Ingrediente) -> IngredienteResponse:
         precio_adicional=ingrediente.precio_adicional,
         imagen_url=ingrediente.imagen_url,
         disponible=ingrediente.disponible,
+        alergeno=ingrediente.alergeno,
     )
 
 
